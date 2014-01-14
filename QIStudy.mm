@@ -1,4 +1,4 @@
-<map version="docear 1.1" project="13FA727FDA42AATC45LPZ5G3LUB2K3USM83Q" project_last_home="file:/F:/Research/Works/QIStudy/" dcr_id="1372647137294_6r11psc21r9n5oknga0tjiitu">
+<map version="docear 1.1" dcr_id="1372647137294_6r11psc21r9n5oknga0tjiitu" project="13FA727FDA42AATC45LPZ5G3LUB2K3USM83Q" project_last_home="file:/F:/Research/Works/QIStudy/">
 <!--To view this file, download Docear - The Academic Literature Suite from http://www.docear.org -->
 <node TEXT="Quantum Information Processing&#xa;(for design and research purpose)" LOCALIZED_STYLE_REF="styles.topic" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1372953886077" MAX_WIDTH="560"><hook NAME="MapStyle" zoom="0.621">
     <properties show_icon_for_attributes="true" show_note_icons="true"/>
@@ -687,7 +687,21 @@
 <node TEXT="Quantum Wires" ID="ID_1921812492" CREATED="1372647890278" MODIFIED="1372647894460"/>
 <node TEXT="Defects" ID="ID_1111179268" CREATED="1372647895396" MODIFIED="1372647914847"/>
 </node>
-<node TEXT="Diamond-defect Systems" ID="ID_512599576" CREATED="1372647798629" MODIFIED="1372647865040"/>
+<node TEXT="Diamond-defect Systems" ID="ID_512599576" CREATED="1372647798629" MODIFIED="1372647865040">
+<node TEXT="Spin-oscillator system" ID="ID_871088361" CREATED="1389399627363" MODIFIED="1389399646383">
+<node TEXT="Synchronizing the Dynamics of a Single Nitrogen Vacancy Spin Qubit&#xd; on a Parametrically Coupled Radio-Frequency Field through Microwave Dressing" ID="ID_1697430403" CREATED="1389399800460" MODIFIED="1389399824526" LINK="project://13FA727FDA42AATC45LPZ5G3LUB2K3USM83Q/../../../References/Archive/Rohr2014.pdf" TEXT_SHORTENED="true">
+<attribute NAME="key" VALUE="Rohr2014"/>
+<attribute NAME="journal" VALUE="Phys. Rev. Lett."/>
+<attribute NAME="authors" VALUE="Rohr, S. and Dupont-Ferrier, E. and Pigeau, B. and Verlot, P. and Jacques, V. and Arcizet, O."/>
+<attribute NAME="title" VALUE="Synchronizing the Dynamics of a Single Nitrogen Vacancy Spin Qubit on a Parametrically Coupled Radio-Frequency Field through Microwave Dressing"/>
+<attribute NAME="year" VALUE="2014"/>
+<pdf_annotation type="PDF_FILE" object_id="0" document_hash="779EACB5411B8A6897A62A3F9A5C25AA5046593A8FB491EFCDF0B78D6147A2FE">
+    <pdf_title>Synchronizing the Dynamics of a Single Nitrogen Vacancy Spin Qubit on a Parametrically Coupled Radio-Frequency Field through Microwave Dressing</pdf_title>
+</pdf_annotation>
+<node TEXT="Good for force detection" ID="ID_1237651485" CREATED="1389399830073" MODIFIED="1389399840960"/>
+</node>
+</node>
+</node>
 <node TEXT="Fundamental theories and reviews" ID="ID_986790304" CREATED="1385419243422" MODIFIED="1385419258049">
 <node TEXT="Quantum computing by optical control of electron spins" ID="ID_821389865" CREATED="1385419262414" MODIFIED="1385419289417" LINK="project://13FA727FDA42AATC45LPZ5G3LUB2K3USM83Q/../../../References/Archive/Liu2010.pdf" TEXT_SHORTENED="true">
 <attribute NAME="key" VALUE="Liu2010"/>
@@ -702,6 +716,20 @@
 </node>
 </node>
 <node TEXT="Hybrid Systems" ID="ID_1471398264" CREATED="1372647922620" MODIFIED="1372647954530" MOVED="1372653953474"/>
+<node TEXT="Biological quantum computing" ID="ID_1798068093" CREATED="1389139537073" MODIFIED="1389139546257">
+<node TEXT="Room temperature coherence and error correction" ID="ID_1496363262" CREATED="1389139656471" MODIFIED="1389139974067">
+<node TEXT="Evolutionary Design in Biological Quantum Computing" ID="ID_408887214" CREATED="1389139690368" MODIFIED="1389139738157" LINK="project://13FA727FDA42AATC45LPZ5G3LUB2K3USM83Q/../../../References/Archive/Vattay2013.pdf" TEXT_SHORTENED="true">
+<attribute NAME="key" VALUE="Vattay2013"/>
+<attribute NAME="journal" VALUE="ArXiv e-prints"/>
+<attribute NAME="authors" VALUE="{Vattay}, G. and {Kauffman}, S.~A."/>
+<attribute NAME="title" VALUE="{Evolutionary Design in Biological Quantum Computing}"/>
+<attribute NAME="year" VALUE="2013"/>
+<pdf_annotation type="PDF_FILE" object_id="0" document_hash="937C8358BE8B02BBB5022DE2F7D49A654C8AF144BE25FFF20367673F0C162">
+    <pdf_title>X N</pdf_title>
+</pdf_annotation>
+</node>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="Circuit Level" ID="ID_91438071" CREATED="1372651579832" MODIFIED="1372657505437">
@@ -763,17 +791,30 @@
 </node>
 </node>
 </node>
-<node TEXT="Measurement and Control systems" FOLDED="true" ID="ID_268473195" CREATED="1372656283157" MODIFIED="1372657746826">
-<node TEXT="Control Structures" FOLDED="true" ID="ID_797463878" CREATED="1372656056555" MODIFIED="1372656065677" MOVED="1372656293022">
+<node TEXT="Measurement and Control systems" ID="ID_268473195" CREATED="1372656283157" MODIFIED="1372657746826">
+<node TEXT="Control Structures" ID="ID_797463878" CREATED="1372656056555" MODIFIED="1372656065677" MOVED="1372656293022">
 <node TEXT="Feedback" ID="ID_397498383" CREATED="1372656072792" MODIFIED="1372656083631"/>
-<node TEXT="Feedforward" ID="ID_1839833244" CREATED="1372656084389" MODIFIED="1372656090592"/>
+<node TEXT="Feedforward" ID="ID_1839833244" CREATED="1372656084389" MODIFIED="1372656090592">
+<node TEXT="Control by learning from measurement (feedforward)" ID="ID_909086701" CREATED="1389504020912" MODIFIED="1389504051813"/>
+</node>
 <node TEXT="Straightforward structure" ID="ID_862628525" CREATED="1372656091418" MODIFIED="1372656266302"/>
 <node TEXT="Networks" ID="ID_550540124" CREATED="1372656267000" MODIFIED="1372656272900"/>
 </node>
 <node TEXT="Control time series flows" ID="ID_366592750" CREATED="1372656297418" MODIFIED="1372826160503"/>
 <node TEXT="Classical and Quantum control systems" ID="ID_280171042" CREATED="1372657509953" MODIFIED="1372657523288"/>
-<node TEXT="Measurements" FOLDED="true" ID="ID_1233474295" CREATED="1372657748969" MODIFIED="1372657759852">
-<node TEXT="Measurement theory" ID="ID_1979911747" CREATED="1372657759859" MODIFIED="1372657765599"/>
+<node TEXT="Measurements" ID="ID_1233474295" CREATED="1372657748969" MODIFIED="1372657759852">
+<node TEXT="Measurement theory" ID="ID_1979911747" CREATED="1372657759859" MODIFIED="1372657765599">
+<node TEXT="Advances in quantum metrology (2011)" ID="ID_1718773204" CREATED="1389217588323" MODIFIED="1389217801613" LINK="project://13FA727FDA42AATC45LPZ5G3LUB2K3USM83Q/../../../References/Archive/Giovannetti2011.pdf" TEXT_SHORTENED="true">
+<attribute NAME="key" VALUE="Giovannetti2011"/>
+<attribute NAME="journal" VALUE="Nature Photonics"/>
+<attribute NAME="authors" VALUE="Giovannetti, Vittorio and Lloyd, Seth and Maccone, Lorenzo"/>
+<attribute NAME="title" VALUE="Advances in quantum metrology"/>
+<attribute NAME="year" VALUE="2011"/>
+<pdf_annotation type="PDF_FILE" object_id="0" document_hash="B3EF1880A3115835782ABB953C39EB5BC11EA05194F5AD8F9B765D158E6936">
+    <pdf_title>advances in quantum metrology</pdf_title>
+</pdf_annotation>
+</node>
+</node>
 <node TEXT="Quantum measurement strategies" FOLDED="true" ID="ID_468714298" CREATED="1372657766278" MODIFIED="1372657784587">
 <node TEXT="Quantum non-destructive measurements" FOLDED="true" ID="ID_1678400683" CREATED="1372657828110" MODIFIED="1372657936722">
 <node TEXT="Quantum Tomography" FOLDED="true" ID="ID_1009755681" CREATED="1372657786292" MODIFIED="1372657796094" MOVED="1372657942053">
@@ -829,8 +870,8 @@
 <node TEXT="Other service systems" ID="ID_757479375" CREATED="1372823331973" MODIFIED="1372823337929"/>
 </node>
 </node>
-<node TEXT="Application/Operational Level" FOLDED="true" ID="ID_1053044560" CREATED="1372658361994" MODIFIED="1372786271271">
-<node TEXT="Operation organization" FOLDED="true" ID="ID_1356333088" CREATED="1372791433336" MODIFIED="1372791458823" MOVED="1372791672480">
+<node TEXT="Application/Operational Level" ID="ID_1053044560" CREATED="1372658361994" MODIFIED="1372786271271">
+<node TEXT="Operation organization" ID="ID_1356333088" CREATED="1372791433336" MODIFIED="1372791458823" MOVED="1372791672480">
 <node TEXT="Stored program concept" FOLDED="true" ID="ID_519993261" CREATED="1372791461257" MODIFIED="1372791473815">
 <node TEXT="Programs in memory--&gt;Fetch--&gt;Excecute cycle" ID="ID_89037697" CREATED="1372791481864" MODIFIED="1372791527493"/>
 </node>
@@ -854,7 +895,15 @@
 </node>
 </node>
 <node TEXT="Operational system" ID="ID_454885851" CREATED="1372658390713" MODIFIED="1372658398921">
-<node TEXT="Quipper as a general QC programming language" ID="ID_520602865" CREATED="1373318173027" MODIFIED="1373318193958"/>
+<node TEXT="Quipper as a general QC programming language" ID="ID_520602865" CREATED="1373318173027" MODIFIED="1388810953439" LINK="project://13FA727FDA42AATC45LPZ5G3LUB2K3USM83Q/../../../References/Archive/Green2013.pdf" TEXT_SHORTENED="true">
+<attribute NAME="key" VALUE="Green2013"/>
+<attribute NAME="authors" VALUE="Green, Alexander S. and Lumsdaine, Peter LeFanu and Ross, Neil J. and Selinger, Peter and Valiron, Beno\^{\i}t"/>
+<attribute NAME="title" VALUE="Quipper: A Scalable Quantum Programming Language"/>
+<attribute NAME="year" VALUE="2013"/>
+<pdf_annotation type="PDF_FILE" object_id="0" document_hash="D994A29034712822FD15C8635370FEEA67325F1B28AF513B148F6CDD19F92FA7">
+    <pdf_title>Quipper: A Scalable Quantum Programming Language</pdf_title>
+</pdf_annotation>
+</node>
 </node>
 <node TEXT="Application software" ID="ID_879027109" CREATED="1372658400513" MODIFIED="1372658420891"/>
 </node>
@@ -1035,7 +1084,7 @@
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_736039781" STARTINCLINATION="856;0;" ENDINCLINATION="856;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
-<node TEXT="Quantum error correction" FOLDED="true" ID="ID_1010655340" CREATED="1372740316731" MODIFIED="1372740326572" MOVED="1372743385111">
+<node TEXT="Quantum error correction" ID="ID_1010655340" CREATED="1372740316731" MODIFIED="1372740326572" MOVED="1372743385111">
 <node TEXT="Classical error correction" ID="ID_1396962263" CREATED="1373314235237" MODIFIED="1373314251645" MOVED="1373314268080">
 <node TEXT="Hamming code" ID="ID_507075850" CREATED="1373314254259" MODIFIED="1373314313378">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1201015517" STARTINCLINATION="357;0;" ENDINCLINATION="323;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
@@ -1061,7 +1110,7 @@
 <node TEXT="Valid to linear combination of states" ID="ID_935534660" CREATED="1372793533770" MODIFIED="1372793553062"/>
 <node TEXT="Differences from Classical error corrections" ID="ID_1807313669" CREATED="1372793954123" MODIFIED="1372793979912"/>
 </node>
-<node TEXT="QEC constructions" ID="ID_535858959" CREATED="1372793793912" MODIFIED="1372793804151">
+<node TEXT="QEC constructions and Fault-tolerant QC" ID="ID_535858959" CREATED="1372793793912" MODIFIED="1389400574527">
 <node TEXT="CSS constructions" ID="ID_1201015517" CREATED="1372793807655" MODIFIED="1372793813571">
 <node TEXT="5-qubit code" ID="ID_96385228" CREATED="1372793815405" MODIFIED="1372793823448"/>
 <node TEXT="7-qubit code" ID="ID_771779431" CREATED="1372793824088" MODIFIED="1372793831608"/>
@@ -1107,6 +1156,18 @@
 </node>
 <node TEXT="Demonstrations" ID="ID_25012748" CREATED="1373489644471" MODIFIED="1373489650138">
 <node TEXT="To show FT QC, we need at least 10 qubits in surface code." ID="ID_1310406214" CREATED="1373489651223" MODIFIED="1373489676201"/>
+</node>
+<node TEXT="Fault-tolerant QC design" ID="ID_310911371" CREATED="1389400596234" MODIFIED="1389400613223">
+<node TEXT="Using Concatenated Quantum Codes for Universal Fault-Tolerant Quantum&#xd; Gates" ID="ID_1906485989" CREATED="1389400614506" MODIFIED="1389400644545" LINK="project://13FA727FDA42AATC45LPZ5G3LUB2K3USM83Q/../../../References/Archive/Jochym-OConnor2014.pdf" TEXT_SHORTENED="true">
+<attribute NAME="key" VALUE="Jochym-OConnor2014"/>
+<attribute NAME="journal" VALUE="Phys. Rev. Lett."/>
+<attribute NAME="authors" VALUE="Jochym-O&apos;Connor, Tomas and Laflamme, Raymond"/>
+<attribute NAME="title" VALUE="Using Concatenated Quantum Codes for Universal Fault-Tolerant Quantum Gates"/>
+<attribute NAME="year" VALUE="2014"/>
+<pdf_annotation type="PDF_FILE" object_id="0" document_hash="3D2FFE21DACEA979FB037A3BCD957A9661C12694AAF4BA14EA6699EDC4C0">
+    <pdf_title>Using Concatenated Quantum Codes for Universal Fault-Tolerant Quantum Gates</pdf_title>
+</pdf_annotation>
+</node>
 </node>
 </node>
 </node>
@@ -1383,10 +1444,26 @@
 </node>
 <node TEXT="Qubit flipping" ID="ID_320867506" CREATED="1372824601510" MODIFIED="1372824614606"/>
 </node>
+<node TEXT="Adiabatic quantum evolution and computing" ID="ID_1803702672" CREATED="1389400197002" MODIFIED="1389400220015">
+<node TEXT="Adiabatic theorem for quantum systems with spectral degeneracy" ID="ID_25504850" CREATED="1389400244136" MODIFIED="1389400253441" LINK="project://13FA727FDA42AATC45LPZ5G3LUB2K3USM83Q/../../../References/Archive/Rigolin2012.pdf" TEXT_SHORTENED="true">
+<attribute NAME="key" VALUE="Rigolin2012"/>
+<attribute NAME="journal" VALUE="Phys. Rev. A"/>
+<attribute NAME="authors" VALUE="Rigolin, Gustavo and Ortiz, Gerardo"/>
+<attribute NAME="title" VALUE="Adiabatic theorem for quantum systems with spectral degeneracy"/>
+<attribute NAME="year" VALUE="2012"/>
+<pdf_annotation type="PDF_FILE" object_id="0" document_hash="2C105EADC11D2CDB501693F53D3D5162439B7CC084D56FBD10A3D118D42F6E1C">
+    <pdf_title>Adiabatic theorem for quantum systems with spectral degeneracy</pdf_title>
+</pdf_annotation>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="Computational Design" ID="ID_1219656533" CREATED="1372786833817" MODIFIED="1372786844232">
-<node TEXT="Computational complexity" ID="ID_593748887" CREATED="1372786857627" MODIFIED="1372786882517"/>
+<node TEXT="Computational complexity" ID="ID_593748887" CREATED="1372786857627" MODIFIED="1372786882517">
+<node TEXT="Boson sampling" ID="ID_557402091" CREATED="1389468377947" MODIFIED="1389468388589">
+<node TEXT="Boson sampling and many-body systems" ID="ID_1989784871" CREATED="1389468402906" MODIFIED="1389468417645"/>
+</node>
+</node>
 <node TEXT="Unversality and criteria for physics implementation" ID="ID_934675240" CREATED="1386795395165" MODIFIED="1386795417230">
 <node TEXT="DiVencenzo&apos;s criteria" ID="ID_1044882251" CREATED="1386795419422" MODIFIED="1386795447903">
 <node TEXT="The Physical Implementation of Quantum Computation" ID="ID_1068324248" CREATED="1386796159741" MODIFIED="1386796177810" LINK="project://13FA727FDA42AATC45LPZ5G3LUB2K3USM83Q/../../../References/Archive/Divincenzo2000.pdf" TEXT_SHORTENED="true" MOVED="1386796391752">
@@ -1543,7 +1620,7 @@
 <node TEXT="Others" ID="ID_1809277295" CREATED="1378403806129" MODIFIED="1378403857334">
 <node TEXT="Other reading materials" ID="ID_615870214" CREATED="1378403354402" MODIFIED="1378403369610" MOVED="1378403830468">
 <node TEXT="Symmetry and information theory" ID="ID_1134692967" CREATED="1378403371121" MODIFIED="1378403456134">
-<node TEXT="The church of symmetric subspace" ID="ID_1686895630" CREATED="1378403395938" MODIFIED="1385404446474" LINK="project://13FA727FDA42AATC45LPZ5G3LUB2K3USM83Q/../../../References/Archive/Harrow2013TheChurchOfSymmSubspace.pdf" TEXT_SHORTENED="true">
+<node TEXT="The church of symmetric subspace" ID="ID_1686895630" CREATED="1378403395938" MODIFIED="1389468898627" LINK="project://13FA727FDA42AATC45LPZ5G3LUB2K3USM83Q/../../../References/Archive/Harrow2013TheChurchOfSymmSubspace.pdf" TEXT_SHORTENED="true">
 <attribute NAME="key" VALUE="Harrow2013"/>
 <attribute NAME="journal" VALUE="{ArXiv} e-prints"/>
 <attribute NAME="authors" VALUE="Harrow, A. W."/>
@@ -1552,9 +1629,6 @@
 <pdf_annotation type="PDF_FILE" object_id="0" document_hash="4B39853FF2586CA3D38DE699AD38F13DB6FC9B777C1E15C37FDEF2655BABEF">
     <pdf_title>The Church of the Symmetric Subspace</pdf_title>
 </pdf_annotation>
-<hook NAME="plugins/TimeManagementReminder.xml">
-    <Parameters REMINDUSERAT="1379263980000" PERIOD="1" UNIT="DAY"/>
-</hook>
 </node>
 <node TEXT="Symmetry and conserved quantities in Lindblad master equations" ID="ID_1498667226" CREATED="1381350934787" MODIFIED="1381350983523" LINK="project://13FA727FDA42AATC45LPZ5G3LUB2K3USM83Q/../../../References/Archive/Albert2013Symmetries.pdf" TEXT_SHORTENED="true">
 <attribute NAME="key" VALUE="Albert2013"/>
@@ -1566,7 +1640,7 @@
     <pdf_title>X O</pdf_title>
 </pdf_annotation>
 </node>
-<node TEXT="SU(4) symmetry of Master Equ--Generalized Dick state" ID="ID_299148320" CREATED="1386193048609" MODIFIED="1386193404594" LINK="project://13FA727FDA42AATC45LPZ5G3LUB2K3USM83Q/../../../References/Archive/Hartmann2012.pdf" TEXT_SHORTENED="true">
+<node TEXT="SU(4) symmetry of Master Equ--Generalized Dick state" ID="ID_299148320" CREATED="1386193048609" MODIFIED="1389468891547" LINK="project://13FA727FDA42AATC45LPZ5G3LUB2K3USM83Q/../../../References/Archive/Hartmann2012.pdf" TEXT_SHORTENED="true">
 <attribute NAME="key" VALUE="Hartmann2012"/>
 <attribute NAME="journal" VALUE="ArXiv e-prints"/>
 <attribute NAME="authors" VALUE="{Hartmann}, S."/>
@@ -1575,9 +1649,6 @@
 <pdf_annotation type="PDF_FILE" object_id="0" document_hash="6FC31CE054D4A3E2DEC3DFA1F1A1A98FDEEA51131BE4A41157822C8E11645CA">
     <pdf_title>Generalized Dicke States</pdf_title>
 </pdf_annotation>
-<hook NAME="plugins/TimeManagementReminder.xml">
-    <Parameters REMINDUSERAT="1387129980000" PERIOD="1" UNIT="DAY"/>
-</hook>
 </node>
 </node>
 <node TEXT="Entanglement theory" ID="ID_1779604137" CREATED="1378403891218" MODIFIED="1378403898340">
@@ -1605,7 +1676,7 @@
 </node>
 </node>
 </node>
-<node TEXT="End-Application-Oriented QIP Design" FOLDED="true" POSITION="right" ID="ID_1711988128" CREATED="1372647466055" MODIFIED="1372824877917">
+<node TEXT="End-Application-Oriented QIP Design" POSITION="right" ID="ID_1711988128" CREATED="1372647466055" MODIFIED="1372824877917">
 <edge COLOR="#00ff00"/>
 <node TEXT="Quantum Communications" FOLDED="true" ID="ID_1611907470" CREATED="1372738757748" MODIFIED="1372738771346">
 <node TEXT="Communication protocols" ID="ID_282454504" CREATED="1372738777272" MODIFIED="1372738798028"/>
@@ -1615,8 +1686,72 @@
 </node>
 </node>
 <node TEXT="Specific Hard Problems Solving" ID="ID_832311522" CREATED="1372658942275" MODIFIED="1372658991918"/>
-<node TEXT="Quantum Simulation" ID="ID_1210640837" CREATED="1372658976964" MODIFIED="1372658987534"/>
-<node TEXT="Quantum Artificial Inteligence and Data Mining" ID="ID_285130457" CREATED="1372658993020" MODIFIED="1372659010573"/>
+<node TEXT="Quantum Simulation" ID="ID_1210640837" CREATED="1372658976964" MODIFIED="1372658987534">
+<node TEXT="Interference of Identical Particles from Entanglement to Boson-Sampling" ID="ID_1811605058" CREATED="1389468307499" MODIFIED="1389468428028" LINK="project://13FA727FDA42AATC45LPZ5G3LUB2K3USM83Q/../../../References/Archive/Tichy2013.pdf" TEXT_SHORTENED="true">
+<attribute NAME="key" VALUE="Tichy2013"/>
+<attribute NAME="journal" VALUE="ArXiv e-prints"/>
+<attribute NAME="authors" VALUE="{Tichy}, M.~C."/>
+<attribute NAME="title" VALUE="{Interference of Identical Particles from Entanglement to Boson-Sampling}"/>
+<attribute NAME="year" VALUE="2013"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1989784871" STARTINCLINATION="746;0;" ENDINCLINATION="746;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<pdf_annotation type="PDF_FILE" object_id="0" document_hash="8A65F7E56368CE741684D6F8926ACDDC8283BD5CDFA89CDC228285C82E498F">
+    <pdf_title>X D</pdf_title>
+</pdf_annotation>
+</node>
+</node>
+<node TEXT="Quantum Artificial Inteligence and Data Mining" ID="ID_285130457" CREATED="1372658993020" MODIFIED="1372659010573">
+<node TEXT="Quantum Machine Learning" ID="ID_1155504412" CREATED="1388771874687" MODIFIED="1388771887512">
+<node TEXT="Quantum support vector machine" ID="ID_628757292" CREATED="1388771928094" MODIFIED="1388771964498" LINK="project://13FA727FDA42AATC45LPZ5G3LUB2K3USM83Q/../../../References/Archive/Rebentrost2013QuantumSupportVectorMachine.pdf" TEXT_SHORTENED="true">
+<attribute NAME="key" VALUE="Rebentrost2013"/>
+<attribute NAME="authors" VALUE="Rebentrost, Patrick and Mohseni, Masoud and Lloyd, Seth"/>
+<attribute NAME="title" VALUE="Quantum support vector machine for big feature and big data classification"/>
+<attribute NAME="year" VALUE="2013"/>
+<pdf_annotation type="PDF_FILE" object_id="0" document_hash="598E7535ECDFB4FDEFECA5D9AB64CDC87E77D0EC377EDF51D2DE0DD993E48F">
+    <pdf_title>{&#x2208; &#xb1;}&#x2212;</pdf_title>
+</pdf_annotation>
+</node>
+<node TEXT="Quantum supervised and unsupervised machine learning" ID="ID_1834728162" CREATED="1388771945600" MODIFIED="1388771992395" LINK="project://13FA727FDA42AATC45LPZ5G3LUB2K3USM83Q/../../../References/Archive/Lloyd2013.pdf" TEXT_SHORTENED="true">
+<attribute NAME="key" VALUE="Lloyd2013"/>
+<attribute NAME="authors" VALUE="Lloyd, Seth and Mohseni, Masoud and Rebentrost, Patrick"/>
+<attribute NAME="title" VALUE="Quantum algorithms for supervised and unsupervised machine learning"/>
+<attribute NAME="year" VALUE="2013"/>
+<pdf_annotation type="PDF_FILE" object_id="0" document_hash="264683F4832787F014742C6A41203DD3211A8E512F4466F3C65A4E94E5F3A">
+    <pdf_title>Seth Lloyd, Masoud Mohseni, Patrick Rebentrost</pdf_title>
+</pdf_annotation>
+</node>
+<node TEXT="Quantum principle component analysis" ID="ID_429811219" CREATED="1388772751630" MODIFIED="1388772771233" LINK="project://13FA727FDA42AATC45LPZ5G3LUB2K3USM83Q/../../../References/Archive/Lloyd2013b.pdf" TEXT_SHORTENED="true">
+<attribute NAME="key" VALUE="Lloyd2013b"/>
+<attribute NAME="journal" VALUE="ArXiv e-prints"/>
+<attribute NAME="authors" VALUE="{Lloyd}, S. and {Mohseni}, M. and {Rebentrost}, P."/>
+<attribute NAME="title" VALUE="{Quantum principal component analysis}"/>
+<attribute NAME="year" VALUE="2013"/>
+<pdf_annotation type="PDF_FILE" object_id="0" document_hash="543C968784E14E8637D246F5E2E5FE133EAFBF84DEF8FA827938245DFBB344">
+    <pdf_title>Seth Lloyd, Masoud Mohseni, Patrick Rebentrost</pdf_title>
+</pdf_annotation>
+</node>
+<node TEXT="Quantum Nearest-Neighbor Algorithms for Machine Learning" ID="ID_1776817340" CREATED="1389502565247" MODIFIED="1389502577468" LINK="project://13FA727FDA42AATC45LPZ5G3LUB2K3USM83Q/../../../References/Archive/Wiebe2014.pdf" TEXT_SHORTENED="true">
+<attribute NAME="key" VALUE="Wiebe2014"/>
+<attribute NAME="authors" VALUE="Nathan Wiebe and Ashish Kapoor and Krysta Svore"/>
+<attribute NAME="title" VALUE="Quantum Nearest-Neighbor Algorithms for Machine Learning"/>
+<attribute NAME="year" VALUE="2014"/>
+<pdf_annotation type="BOOKMARK" page="1" object_id="8044304005193427120" object_number="4" document_hash="BC99CF21F125438CF2FF995185DC25DC915EFB317665369AAAAA580D2BA6F38">
+    <pdf_title>Quantum Nearest-Neighbor Algorithms for Machine Learning</pdf_title>
+</pdf_annotation>
+</node>
+<node TEXT="Quantum learning by measurement and feedback" ID="ID_1570973688" CREATED="1389503934960" MODIFIED="1389504066328" LINK="project://13FA727FDA42AATC45LPZ5G3LUB2K3USM83Q/../../../References/Archive/Gammelmark2009.pdf" TEXT_SHORTENED="true">
+<attribute NAME="key" VALUE="Gammelmark2009"/>
+<attribute NAME="journal" VALUE="New Journal of Physics"/>
+<attribute NAME="authors" VALUE="S Gammelmark and K M&#xf8;lmer"/>
+<attribute NAME="title" VALUE="Quantum learning by measurement and feedback"/>
+<attribute NAME="year" VALUE="2009"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_909086701" STARTINCLINATION="4135;0;" ENDINCLINATION="4135;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<pdf_annotation type="PDF_FILE" object_id="0" document_hash="B53AA67279CDAE2DA1D5785BBB325A751868DEFCF05662C8F42A676784898C">
+    <pdf_title>Quantum learning by measurement and feedback</pdf_title>
+</pdf_annotation>
+</node>
+</node>
+<node TEXT="Quantum artificial intelligence" ID="ID_1047944426" CREATED="1388772014271" MODIFIED="1388772039999"/>
+</node>
 <node TEXT="Quantum Arts and Consciousness" ID="ID_1346388227" CREATED="1372659026054" MODIFIED="1372659130649"/>
 </node>
 <node TEXT="Design and Research Tools" FOLDED="true" POSITION="right" ID="ID_52043938" CREATED="1372788526730" MODIFIED="1372788543928">
